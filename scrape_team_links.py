@@ -16,7 +16,7 @@ headers = {
 # 'https://fbref.com/en/squads/18bb7c10/Arsenal-Stats',  # Example URL
 
 team_urls = [
-   "https://fbref.com/en/squads/a2d435b3/Leicester-City-Stats"
+    "https://fbref.com/en/squads/822bd0ba/Liverpool-Stats"
 ]
 
 def scrapePlayerLinks():

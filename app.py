@@ -52,7 +52,7 @@ def get_team_id_by_name(conn, team_name):
 @app.route('/add_player', methods=['POST'])
 def add_player():
     data = request.json
-    current_team_name = 'Leicester City' ## CHANGE THIS,
+    current_team_name = 'Liverpool' ## CHANGE THIS,
     current_season = '2024-2025'
 
     # Extract player data

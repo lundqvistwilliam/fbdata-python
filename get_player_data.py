@@ -18,12 +18,58 @@ headers = {
 
 # List of player URLs from Transfermarkt
 player_urls = [
- 
+ [
+  "https://www.transfermarkt.com/alisson/profil/spieler/105470",
+  "https://www.transfermarkt.com/caoimhin-kelleher/profil/spieler/340918",
+  "https://www.transfermarkt.com/vitezslav-jaros/profil/spieler/486604",
+  "https://www.transfermarkt.com/ibrahima-konate/profil/spieler/357119",
+  "https://www.transfermarkt.com/virgil-van-dijk/profil/spieler/139208",
+  "https://www.transfermarkt.com/joe-gomez/profil/spieler/256178",
+  "https://www.transfermarkt.com/jarell-quansah/profil/spieler/632349",
+  "https://www.transfermarkt.com/andrew-robertson/profil/spieler/234803",
+  "https://www.transfermarkt.com/konstantinos-tsimikas/profil/spieler/338070",
+  "https://www.transfermarkt.com/trent-alexander-arnold/profil/spieler/314353",
+  "https://www.transfermarkt.com/conor-bradley/profil/spieler/624258",
+  "https://www.transfermarkt.com/wataru-endo/profil/spieler/146310",
+  "https://www.transfermarkt.com/dominik-szoboszlai/profil/spieler/451276",
+  "https://www.transfermarkt.com/alexis-mac-allister/profil/spieler/534033",
+  "https://www.transfermarkt.com/ryan-gravenberch/profil/spieler/478573",
+  "https://www.transfermarkt.com/curtis-jones/profil/spieler/433188",
+  "https://www.transfermarkt.com/harvey-elliott/profil/spieler/565822",
+  "https://www.transfermarkt.com/luis-diaz/profil/spieler/480692",
+  "https://www.transfermarkt.com/cody-gakpo/profil/spieler/434675",
+  "https://www.transfermarkt.com/mohamed-salah/profil/spieler/148455",
+  "https://www.transfermarkt.com/federico-chiesa/profil/spieler/341092",
+  "https://www.transfermarkt.com/darwin-nunez/profil/spieler/546543",
+  "https://www.transfermarkt.com/diogo-jota/profil/spieler/340950",
+]
 ]
 
 # Corresponding fbref URLs in the same order as player_urls
 fbref_urls = [
- 
+  "https://fbref.com/en/players/7a2e46a8/Alisson",
+  "https://fbref.com/en/players/62d7ef38/Caoimhin-Kelleher",
+  "https://fbref.com/en/players/12bb4d6a/Vitezslav-Jaros",
+  "https://fbref.com/en/players/5ed9b537/Ibrahima-Konate",
+  "https://fbref.com/en/players/e06683ca/Virgil-van-Dijk",
+  "https://fbref.com/en/players/7a11550b/Joe-Gomez"
+  "https://fbref.com/en/players/4125cb98/Jarell-Quansah",
+  "https://fbref.com/en/players/2e4f5f03/Andrew-Robertson",
+  "https://fbref.com/en/players/f315ca93/Kostas-Tsimikas",
+  "https://fbref.com/en/players/cd1acf9d/Trent-Alexander-Arnold",
+  "https://fbref.com/en/players/bbd67769/Conor-Bradley",
+  "https://fbref.com/en/players/c149016b/Wataru-Endo",
+  "https://fbref.com/en/players/934e1968/Dominik-Szoboszlai",
+  "https://fbref.com/en/players/83d074ff/Alexis-Mac-Allister",
+  "https://fbref.com/en/players/b8e740fb/Ryan-Gravenberch",
+  "https://fbref.com/en/players/4fb9c88f/Curtis-Jones",
+  "https://fbref.com/en/players/b9e1436c/Harvey-Elliott",
+  "https://fbref.com/en/players/4a1a9578/Luis-Diaz",
+  "https://fbref.com/en/players/1971591f/Cody-Gakpo",
+  "https://fbref.com/en/players/e342ad68/Mohamed-Salah",
+  "https://fbref.com/en/players/b0f7e36c/Federico-Chiesa",
+  "https://fbref.com/en/players/4d77b365/Darwin-Nunez",
+  "https://fbref.com/en/players/178ae8f8/Diogo-Jota",
 ]
 
 
