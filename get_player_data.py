@@ -17,15 +17,10 @@ headers = {
 }
 
 # List of player URLs from Transfermarkt
-player_urls = [
-  
-]
+player_urls = []
 
 # Corresponding fbref URLs in the same order as player_urls
-fbref_urls = [
- 
-]
-
+fbref_urls = []
 
 
 # Flask API URL
@@ -91,11 +86,13 @@ def scrapePlayerTeamHistoryData(fbref_url):
             team = row.select_one('td[data-stat="team"] a').text.strip() if row.select_one('td[data-stat="team"] a') else "N/A"
             competition = row.select_one('td[data-stat="comp_level"] a').text.strip() if row.select_one('td[data-stat="comp_level"] a') else "N/A"
 
-            player_table_data.append({
-                'season': season,
-                'team_name': team,
-                'competition': competition,
-            })
+            ## change to equivalent for other leagues 
+            if competition not in ["PL2 — Div. 1", "PL2 — Div. 2", "PL2"]: ## Don't add development league seasons (academy)
+                player_table_data.append({
+                    'season': season,
+                    'team_name': team,
+                    'competition': competition,
+                })
 
     except requests.RequestException as e:
         print(f"Error scraping {fbref_url}: {e}")
