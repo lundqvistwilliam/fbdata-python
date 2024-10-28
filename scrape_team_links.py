@@ -15,7 +15,7 @@ headers = {
 # List of team URLs containing player links
 # 'https://fbref.com/en/squads/18bb7c10/Arsenal-Stats',  # Example URL
 
-team_urls = []
+team_urls = ['']
 
 def scrapePlayerLinks():
     all_player_links = []
@@ -28,7 +28,9 @@ def scrapePlayerLinks():
 
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            table = soup.find('table', id='stats_standard_9')
+            table = soup.find('table', id='stats_standard_12') # For LaLiga
+            # table = soup.find('table', id='stats_standard_9') for Premier League
+
             
             if table:
                 # Extract player links from this table

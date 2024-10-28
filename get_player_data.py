@@ -18,10 +18,8 @@ headers = {
 
 # List of player URLs from Transfermarkt
 player_urls = []
-
 # Corresponding fbref URLs in the same order as player_urls
 fbref_urls = []
-
 
 # Flask API URL
 flask_api_url = 'http://127.0.0.1:5000/add_player'
